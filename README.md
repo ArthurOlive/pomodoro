@@ -1,5 +1,10 @@
 # 🍅 Pomodoro timer
 
+![React](https://img.shields.io/badge/react-18.3-darkblue)
+![Typescript](https://img.shields.io/badge/typescript-5.6.2-blue)
+![Tailwind](https://img.shields.io/badge/tailwind-3.4.x-green.svg)
+![Vite](https://img.shields.io/badge/vite-6.0.5-purple.svg)
+
 <table>
   <tr>
     <td>
