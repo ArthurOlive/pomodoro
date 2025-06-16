@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# 🍅 Pomodoro timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd64fe96-96ab-4f23-a7e9-e292b9171331" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2a02e63b-aa46-4642-892e-611742e5a113" />
+    </td>
+  </tr>
+</table>
 
-Currently, two official plugins are available:
+## 🧠 O que é Pomodoro?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 1980. A ideia central é dividir o trabalho em blocos de tempo, geralmente de 25 minutos, chamados de "pomodoros", seguidos por pequenas pausas. Esse ciclo ajuda a manter o foco, aumentar a produtividade e evitar o esgotamento mental.
 
-## Expanding the ESLint configuration
+### Ciclo clássico:
+- **25 minutos** de trabalho focado  
+- **5 minutos** de pausa  
+- Após 4 ciclos, uma **pausa mais longa** de 15 a 30 minutos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 💻 Sobre o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Este é um **Pomodoro Timer simplificado**, com uma interface minimalista e foco total na produtividade. O projeto oferece:
+
+- Um cronômetro funcional com início, pausa e reinício
+- Alternância entre modo claro e **modo escuro (Dark Mode)** para mais conforto visual
+- Um layout responsivo e intuitivo
+
+Ideal para quem quer manter o foco durante tarefas diárias, estudos ou trabalho remoto.
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando tecnologias modernas e de alta performance:
+
+- [**Vite**](https://vitejs.dev/) – Ferramenta de build ultrarrápida para projetos web modernos
+- [**Tailwind CSS**](https://tailwindcss.com/) – Framework utilitário para estilização rápida e eficiente
+- **JavaScript** – Lógica do timer e interação com a interface
+## 📂 Como Rodar o Projeto Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/pomodoro-timer.git
+
+# Acesse a pasta do projeto
+cd pomodoro-timer
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Ou acesse no link [Pomodoro](https://pomodoro-simples.netlify.app/)
