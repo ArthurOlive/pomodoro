@@ -98,8 +98,8 @@ function App() {
 
   return (
     <>
-      <section className="w-screen h-screen relative bg-red-500 dark:bg-gray-950 transition-colors duration-500">
-        <div className="flex h-screen items-center justify-center">
+      <section className="w-screen h-screen relative flex items-center justify-center bg-red-500 dark:bg-gray-950 transition-colors duration-500">
+        <div className="">
           <div className="p-2 rounded-lg flex items-center justify-center gap-5">
             <div
               className="flex flex-col justify-center items-center"
