@@ -4,7 +4,7 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { FaPause, FaPlay } from "react-icons/fa";
 
 function App() {
-  const minRemaing = 2;
+  const minRemaing = 25;
   const secRemaing = minRemaing * 60;
 
   const [startTime, setStartTime] = useState<Date | undefined>(new Date());
